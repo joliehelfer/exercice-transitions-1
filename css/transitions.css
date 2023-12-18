@@ -101,3 +101,11 @@
 #ex10 .box:hover {
   transform: translateY(20px);
 }
+
+#ex11 .box {
+  transition: transform 0.4s;
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+}

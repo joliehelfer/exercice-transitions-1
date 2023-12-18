@@ -109,3 +109,11 @@
 #ex11 .box:hover {
   transform: rotate(90deg);
 }
+
+#ex12 .box {
+  transition: scale 0.4s;
+}
+
+#ex12 .box:hover {
+  scale: 1.3;
+}

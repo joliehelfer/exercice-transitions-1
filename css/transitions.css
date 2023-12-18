@@ -93,3 +93,11 @@
   background: beige;
   color: #12445a;
 }
+
+#ex10 .box {
+  transition: transform 0.4s;
+}
+
+#ex10 .box:hover {
+  transform: translateY(20px);
+}

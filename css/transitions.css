@@ -1,3 +1,19 @@
 #ex01 .box:hover {
   background: #12445a;
 }
+
+#ex02 .box {
+  transition: background 0.3s;
+}
+
+#ex02 .box:hover {
+  background: #12445a;
+}
+
+#ex03 .box {
+  transition: background 0.5s 0.3s;
+}
+
+#ex03 .box:hover {
+  background: #12445a;
+}

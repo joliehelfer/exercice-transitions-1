@@ -35,3 +35,27 @@
   background: #12445a;
   color: beige;
 }
+
+#ex06 .box {
+  transition: background 0.3s;
+}
+
+#ex06 .wrapper:hover .box {
+  background: #12445a;
+}
+
+#ex07 .box {
+  transition: background 0.3s;
+}
+
+#ex07 .box:nth-child(2) {
+  transition: background 0.3s 0.2s;
+}
+
+#ex07 .box:nth-child(3) {
+  transition: background 0.3s 0.4s;
+}
+
+#ex07 .wrapper:hover .box {
+  background: #12445a;
+}

@@ -17,3 +17,21 @@
 #ex03 .box:hover {
   background: #12445a;
 }
+
+#ex04 .box {
+  transition: 0.3s;
+}
+
+#ex04 .box:hover {
+  background: #12445a;
+  color: beige;
+}
+
+#ex05 .box {
+  transition: background 0.3s, color 0.3s 0.3s;
+}
+
+#ex05 .box:hover {
+  background: #12445a;
+  color: beige;
+}
